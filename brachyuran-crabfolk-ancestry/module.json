@@ -24,8 +24,10 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "pf2e",
-      "flags": {
+      "system": "pf2e"
+    }
+  ],
+  "flags": {
     "brachyuran-crabfolk-ancestry": {
       "pf2e-homebrew": {
         "baseWeapons": {
@@ -46,11 +48,9 @@
           "brachyuran": "Brachyuran"
         },
         "languages": {
-          "brachyuran": "brachyuran"
+          "brachyuran": "Brachyuran"
         }
       }
     }
   }
-    }
-  ]
 }
