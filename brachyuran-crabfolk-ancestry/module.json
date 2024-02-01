@@ -1,60 +1,56 @@
 {
-   "id":"brachyuran-crabfolk-ancestry",
-   "title":"Brachyuran Crabfolk Ancestry",
-   "version":"1.0.0",
-   "compatibility":{
-      "minimum":"11",
-      "verified":"11"
-   },
-   "description":"The Brachyuran Crabfolk Ancestry",
-   "authors":[
-      {
-         "name":"Ian Speidel",
-         "discord":"ayespydie",
-         "flags":{
-            
-         }
+  "id": "brachyuran-crabfolk-ancestry",
+  "title": "Brachyuran Crabfolk Ancestry",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "description": "The Brachyuran Crabfolk Ancestry",
+  "authors": [
+    {
+      "name": "Ian Speidel",
+      "discord": "ayespydie",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "brachyuran-ancestry",
+      "label": "Brachyuran Ancestry",
+      "path": "packs/brachyuran-ancestry",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {
+    "brachyuran-crabfolk-ancestry": {
+      "pf2e-homebrew": {
+        "baseWeapons": {
+          "undecided-item": "undecided item",
+          "brachyuran-thingy": "Brachyuran Thingy",
+          "one-more": "One More"
+        },
+        "creatureTraits": {
+          "brachyuran": "Brachyuran"
+        },
+        "weaponTraits": {
+          "brachyuran": {
+            "label": "Brachyuran",
+            "description": "A weapon with this trait is a weapon which brachyurans craft and use."
+          }
+        },
+        "featTraits": {
+          "brachyuran": "Brachyuran"
+        },
+        "languages": {
+          "brachyuran": "brachyuran"
+        }
       }
-   ],
-   "packs":[
-      {
-         "name":"brachyuran-ancestry",
-         "label":"Brachyuran Ancestry",
-         "path":"packs/brachyuran-ancestry",
-         "type":"Item",
-         "ownership":{
-            "PLAYER":"OBSERVER",
-            "ASSISTANT":"OWNER"
-         },
-         "system":"pf2e"
-      }
-   ],
-   "flags":{
-      "brachyuran-crabfolk-ancestry":{
-         "pf2e-homebrew":{
-            "baseWeapons":{
-               "undecided-item":"undecided item",
-               "brachyuran-thingy":"Brachyuran Thingy",
-               "one-more":"One More"
-            },
-            "creatureTraits":{
-               "brachyuran":"Brachyuran"
-            },
-            "weaponTraits":{
-               "brachyuran":{
-                  "label":"Brachyuran",
-                  "description":"A weapon with this trait is a weapon which brachyurans craft and use."
-               }
-            },
-            "featTraits":{
-               "brachyuran":"Brachyuran"
-            },
-            "languages":{
-               "brachyuran":"brachyuran"
-            }
-         }
-      }
-   }"url":"https://github.com/AyeSpydie/CrabfolkPlaytest",
-   "manifest":"https://raw.githubusercontent.com/AyeSpydie/CrabfolkPlaytest/main/brachyuran-crabfolk-ancestry/module.json",
-   "download":"https://github.com/AyeSpydie/CrabfolkPlaytest/archive/refs/heads/main.zip"
+    }
+  }
+    }
+  ]
 }
