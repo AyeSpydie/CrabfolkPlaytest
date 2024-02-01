@@ -1,7 +1,7 @@
 {
   "id": "brachyuran-crabfolk-ancestry",
   "title": "Brachyuran Crabfolk Ancestry",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -54,6 +54,6 @@
     }
   },
   "url": "https://github.com/AyeSpydie/CrabfolkPlaytest",
-"manifest": "https://raw.githubusercontent.com/AyeSpydie/CrabfolkPlaytest/master/module.json",
+"manifest": "https://raw.githubusercontent.com/AyeSpydie/CrabfolkPlaytest/main/brachyuran-crabfolk-ancestry/module.json",
 "download": "https://github.com/AyeSpydie/CrabfolkPlaytest/archive/refs/heads/main.zip"
 }
