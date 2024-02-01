@@ -25,7 +25,9 @@
         "ASSISTANT": "OWNER"
       },
       "system": "pf2e",
-      "flags": {
+    }
+  ],
+  "flags": {
     "brachyuran-crabfolk-ancestry": {
       "pf2e-homebrew": {
         "baseWeapons": {
@@ -51,8 +53,6 @@
       }
     }
   }
-    }
-  ],
   "url": "https://github.com/AyeSpydie/CrabfolkPlaytest",
   "manifest": "https://raw.githubusercontent.com/AyeSpydie/CrabfolkPlaytest/main/brachyuran-crabfolk-ancestry/module.json",
   "download": "https://github.com/AyeSpydie/CrabfolkPlaytest/archive/refs/heads/main.zip"
